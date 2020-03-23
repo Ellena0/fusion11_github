@@ -9,16 +9,16 @@
 	<title> Lecfly </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"type="text/css" rel="stylesheet">        
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"type="text/css" rel="stylesheet">    
-    <link type="text/css" rel="stylesheet" href="css/Lecfly.css">    
+    <link type="text/css" rel="stylesheet" href="css/CSCenter.css">    
  </head>
 <body>
     <div class="section">
         <div id="sec_title"><h2>고객섬김센터</h2></div>
             <div id="sec_subtitle">
                 <ul>
-                    <li><a href="Lecfly_CS_1.html">1:1 문의</a></li>
-                    <li><a href="Lecfly_CS_2.html"style="background-color: orange">자주묻는 질문</a></li>
-                    <li><a href="Lecfly_CS_3.html">공지사항</a></li>
+                    <li><h4><a href="Lecfly_CS_1.html">1:1 문의</a></h4></li>
+                    <li><h4><a href="Lecfly_CS_2.html"style="background-color: orange">자주묻는 질문</a></h4></li>
+                    <li><h4><a href="Lecfly_CS_3.html">공지사항</a></h4></li>
                 </ul>
             </div>
             

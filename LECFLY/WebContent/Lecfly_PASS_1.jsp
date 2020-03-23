@@ -9,15 +9,15 @@
 	<title> Lecfly </title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/fontawesome.css"type="text/css" rel="stylesheet">        
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/solid.css"type="text/css" rel="stylesheet">    
-    <link type="text/css" rel="stylesheet" href="css/Lecfly.css">    
+    <link type="text/css" rel="stylesheet" href="css/CSCenter.css">    
 </head>
 <body>
     <div class="section">
         <div id="sec_title"><h2>홈페이지 안내</h2></div>
             <div id="sec_subtitle">
                 <ul>
-                    <li><a href="Lecfly_PASS_1.html" style="background-color: orange">이용안내</a></li>
-                    <li><a href="Lecfly_PASS_2.html">회원권</a></li>
+                    <li><h4><a href="Lecfly_PASS_1.html" style="background-color: orange">이용안내</a></h4></li>
+                    <li><h4><a href="Lecfly_PASS_2.html">회원권</a></h4></li>
                 </ul>
             </div>
             

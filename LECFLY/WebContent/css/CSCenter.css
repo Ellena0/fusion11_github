@@ -1,0 +1,288 @@
+@font-face { font-family: 'Cafe24Simplehae'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Simplehae.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Cafe24Simplehae';
+}
+
+.CSsection { /* main size 설정 */
+    float: left;
+    width: 1050px;    
+    min-height: 670px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    /*    margin-left: 2px;*/
+}
+#CSsec_title { /* 타이틀 _ 고객섬김센터*/
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#CSsec_subtitle { /* 서브 타이틀 _ 1:1 문의하기, 자주묻는질문, 공지사항 */
+    margin-left: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: large;
+}
+#CSsec_subtitle ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#CSsec_subtitle ul li {
+    float: left;
+    margin-right: 15px;
+}
+#CSsec_subtitle ul li a{
+    color: black;
+    text-decoration: none;
+}
+#CSsec_subtitle ul li a:hover{
+    color: orangered;
+}
+
+/* 고객섬김센터_1대1문의하기 */
+
+#qnabox { /* 1대1 문의하기 _ 박스 */
+    background-color: orange;
+    width: 240px;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#qnabox2 { /* 1대1 문의하기 _ 하단 박스 */
+    background-color: lightgray;
+    width: 395px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 60px;
+    padding: 20px;
+    display: block;
+    float: left;
+}
+#qnabox2 table { /* 1대1 문의하기 _ 문의내역 테이블 */
+    width: 350px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+}
+#qna_numbering{ /* 1대1 문의하기 _ 문의내역 테이블_페이지 넘버링 */
+    text-align: center;
+}
+#qna_numbering b{
+    color: orange;
+}
+
+/* 고객섬김센터_자주묻는질문 */
+
+#faq_nav { /* 자주묻는질문 _ 보드 네비게이션 ( 전체, 이용안내, 회원정보, 결제/환불, 기타 ) */
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#faq_nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#faq_nav ul li {
+    float: left;
+    margin-right: 15px;
+}
+#faq_nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+#faq_nav ul li a:hover{
+    color: orangered;
+}
+#faq_table { /* 자주묻는질문 _ 테이블 영역*/
+    width: 900px;
+    margin-left: 75px;
+}
+#faq_table table{ /* 자주묻는질문_테이블*/
+    border-collapse: collapse;
+/*    border: 1px solid black;*/
+    width: 900px;
+    height: 500px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: x-large;
+}
+#faq_table table *{ 
+    border: 1px solid darkgray;   
+}
+#faq_table table td{
+    padding-left: 15px;   
+}
+#faq_numbering { /* 자주묻는질문_ 테이블_페이지넘버링*/
+    text-align: center;
+}
+#faq_numbering b{
+    color: orange;
+}
+
+/* 고객섬김센터_공지사항*/
+
+#notice_p { /* 공지사항_ 설명 P */
+    margin-top: 15px;
+    margin-left: 60px;
+}
+#notice_table table{ /* 공지사항_ 테이블*/
+    margin-left: 75px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 900px;
+    height: 500px;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+    font-size: large;
+}
+#notice_numbering { /*공지사항 _ 테이블_ 페이지넘버링*/
+    text-align: center;
+}
+#notice_numbering b{
+    color: orange;
+}
+
+/* 홈페이지 안내_이용안내*/
+
+.lecflyis { /* 홈페이지_이용안내_섹션*/
+    width: 930px;
+    min-height: 700px;
+    margin-left: 60px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    background-color: orange;
+    text-align: center;
+}
+#lecflyis_logo { /* 로고 */
+    margin-top: 30px;
+}
+#lecflyis_maintitle { /* 홈페이지_이용안내_메인타이틀 */
+    margin-top: 30px;
+}
+#lecflyis_maintxt { /* 홈페이지_이용안내_메인텍스트*/
+    margin-top: 30px;
+}
+#lecflyis_title2 { /* 홈페이지_이용안내_타이틀 2*/
+    margin-top: 60px;
+/*    background-color: purple;*/
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lecflyis_box { /* 홈페이지_이용안내_박스 */
+    background-color: white;
+    width: 220px;
+    height: 220px;
+    display: block;
+    float: left;
+    margin-left: 67.5px;
+    margin-top: 45px;
+/*    padding-left: 10px;*/
+    padding-top: 30px;
+    text-align: center;
+}
+#lecflyis_title3 { /* 홈페이지_이용안내_타이틀3 */
+    width: 930px;
+    height: 150px; 
+    background-color: orange;
+    margin-left: 60px;
+    text-align: center;
+}
+#lecflyis_gohome { /* 홈페이지_이용안내_홈화면 이동 */
+    width: 200px;
+    height: 34px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+}
+#lecflyis_gohome a {
+    color: white;
+    text-decoration: none;
+}
+
+/* 홈페이지 안내_회원권*/
+
+.lecflyticket {  /* 홈페이지_회원권_섹션 */
+    width: 930px;
+    min-height: 620px;
+    margin-left: 60px;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    background-color: orange;
+    text-align: center;
+}
+#lecflyticket_logo {  /* 홈페이지_회원권_로고*/
+    margin-top: 30px;
+}
+#lecflyticket_noticebox {  /* 홈페이지_회원권_공지박스 */
+    width: 795px;
+    height: 90px;
+    margin-left: 67.5px;
+    padding-top: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+#lecflyticket_maintitle { /* 홈페이지_회원권_메인타이틀 */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#lecflyticket_box { /* 홈페이지_회원권_회원권종류 박스 */
+    background-color: white;
+    width: 220px;
+    height: 300px;
+    display: block;
+    float: left;
+    margin-left: 67.5px;
+    margin-top: 45px;
+/*    padding-left: 10px;*/
+    padding-top: 30px;
+    text-align: center;
+}
+#lecflyticket_gopay { /* 홈페이지_회원권_결제페이지 이동 */
+    width: 100px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+}
+#lecflyticket_gopay a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

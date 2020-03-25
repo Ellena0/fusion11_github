@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%><!-- 브랜치 테스트 테스트 완료-->
+	pageEncoding="UTF-8"%><!-- 아직 테스트 안됨 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>

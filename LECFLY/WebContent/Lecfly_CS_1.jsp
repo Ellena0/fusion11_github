@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%><!-- 아직 테스트 안됨 -->
+	pageEncoding="UTF-8"%><!-- 아직 테스트 안됨 어떻게 해야하지?ㅜㅜ-ellena2 -->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
